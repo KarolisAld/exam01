@@ -29,6 +29,7 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .main {
@@ -112,10 +113,30 @@ h2 {
   margin-bottom: 0;
 }
 
-.nft-name, .nft-price {
-    font-size: 1.3rem;
+.nft-name,
+.nft-price {
+  font-size: 1.3rem;
 }
 
 .content {
   margin-bottom: 4rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  color: #555555;
+}
+
+.footer-right > div {
+  margin-left: 96px;
+}
+
+.footer-right ul li {
+  padding: 0 0 10px 0;
 }
