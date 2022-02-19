@@ -1,0 +1,29 @@
+.container {
+  max-width: 1600px;
+  margin: 2rem auto;
+  padding: 0 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-items ul {
+    display: flex;
+}
+
+.menu-items > ul > li > a {
+    color: #555555;
+    padding: 0 1.5rem;
+    text-decoration: none;
+}
+
+.pink {
+    color: #FF3998 !important;
+}
+
+ul {
+    list-style: none;
+}
